@@ -1,0 +1,38 @@
+.div { 
+    position: relative;
+    top: 380px;
+    right: 100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+  
+    max-width: fit-content;
+ }
+ #fit{
+    width: 100vw; 
+    height: 100vh; 
+    object-fit: cover; 
+    position: fixed; 
+    left: 0; right: 0; top: 0; bottom: 0; 
+    z-index: -1;
+ }
+
+ .push-button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: rgb(233, 156, 156);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .push-button:hover {
+    background-color: rgb(158, 160, 69);
+  }
+  
+  .push-button:active {
+    background-color: #f02727;
+  }
+  
+  

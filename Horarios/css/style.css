@@ -1,0 +1,77 @@
+h1 {
+
+	padding-top: 5%; 
+	padding-bottom: 1%;
+		}
+table {
+    border: 1px black solid;
+	text-align: center;
+	margin: 0 auto; 
+	max-width: fit-content; 
+
+}
+
+th {
+    border: 1px black solid;
+}
+td {
+    border: 1px black solid;
+}
+tr{
+    border: 1px black solid;
+}
+td[rowspan] {
+            vertical-align: middle;
+}
+
+#M04{
+
+    background-color: pink;
+}
+#TUT{
+
+    background-color: greenyellow;
+}
+#M01{
+
+    background-color: skyblue;
+}
+#M03{
+
+    background-color: grey;
+}
+#M05{
+
+    background-color: goldenrod;
+}
+#M02{
+
+    background-color: orangered;
+}
+#M12{
+
+    background-color: red;
+}
+#M13{
+
+    background-color: purple;
+}
+#PATIO{
+    
+    background-color: gainsboro;
+}
+
+#BKIMAGE{
+
+	background-image: url('../imagen/school.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+th:hover {
+	background-color: orange;
+	font-size: 150%;
+  }
+  td:hover {
+	color: orange;
+	font-size: 150%;
+  }
